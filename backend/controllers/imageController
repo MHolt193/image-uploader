@@ -1,11 +1,12 @@
 
 
-const getImage = () =>{
+const getImage = (req, res) =>{
 
 }
 
-const uploadImage = () =>{
-
+const uploadImage = (req, res) =>{
+    console.log('upload request recieved /api/images')
+    res.json({message: "UPLOAD REQUEST RECIEVED"})
 }
 
 module.exports = {getImage, uploadImage}
