@@ -16,7 +16,7 @@ function App() {
     const formData = form.files;
     setIsLoading(true);
     axios
-      .post("http://192.168.0.57:5000/api/images", formData)
+      .post("https://mhimageuploader.herokuapp.com/api/images", formData)
       .then((response) => {
         setImageLink(response.data.file_url);
       })
