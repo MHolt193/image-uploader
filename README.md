@@ -40,12 +40,9 @@
 
 ![screenshot](https://user-images.githubusercontent.com/76035004/179386528-d35c07d4-6d15-49d4-ad60-bb7a8ba6dafc.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - This project can be seen at https://mhimageuploader.netlify.app. It uses heroku for the backend host so any images uploaded will not persist
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- This was a relatively simple project. it was fun to get more aquainted with Node.js with express 
 
 ### Built With
 
