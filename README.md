@@ -85,5 +85,5 @@ $ npm start
 ## Contact
 
 - Website [michaelholt.dev](https://michaelholt.dev)
-- GitHub [@yMHolt193](https://github.com/MHolt193)
+- GitHub [@MHolt193](https://github.com/MHolt193)
 
