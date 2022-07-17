@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import ImageUploader from "./components/ImageUploader";
 import UploadComplete from "./components/UploadComplete";
 import Loading from "./components/Loading";
+import Footer from "./components/Footer"
 
 import axios from "axios";
 import "./App.css";
@@ -38,6 +39,7 @@ function App() {
       ) : (
         <UploadComplete imageLink={imageLink} />
       )}
+      <Footer />
     </div>
   );
 }
