@@ -1,0 +1,82 @@
+.container {
+  width: 400px;
+  height: 455px;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+  margin: 0px;
+}
+.checkmarkContainer {
+  width: 42px;
+  height: 42px;
+  font-size: 52px;
+  color: #219653;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.image {
+  width: 338px;
+  height: 224px;
+  border-radius: 12px;
+}
+.linkContainer {
+  width: 338px;
+  height: 34px;
+  background: #f6f8fb;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.linkContainer input {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: 10px;
+  text-overflow: ellipsis;
+  background: none;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: -0.035em;
+  color: #4f4f4f;
+}
+.linkContainer button {
+  width: 128px;
+  height: 30px;
+  background: #2f80ed;
+  border-radius: 8px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: -0.035em;
+  color: #ffffff;
+  margin-left: 14px;
+  margin-right: 2px;
+}

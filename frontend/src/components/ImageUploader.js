@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import classes from "./ImageUploader.module.css";
 import image from "../assets/img/image.svg";
 
 const ImageUploader = (props) => {
-  const [images, setImages] = useState({});
+  
 
   return (
     <div className={classes.container}>
@@ -15,7 +15,7 @@ const ImageUploader = (props) => {
             <p>Drag & Drop your image here</p>
             <input type="file" id="dropZone" name="files"/>
         </label>
-        <p>or</p>
+        <p className={classes.or}>Or</p>
 
         <label htmlFor="dropZone" className={classes.chooseFileLabel}>
           Choose a file 
